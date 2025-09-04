@@ -36,16 +36,25 @@ Any unauthorized use, copying, or distribution of this software will result in:
 
 #### Installation:
 1. Clone this repository
-2. Install dependencies: `python3 and python-env`
+2. Install dependencies: `python3 and python-env
+                          pip install requirements.txt( may be install via python-env)`
 3. Run the server: `python3 server.py`
 4. Run the client: `python3 client.py`
 
 #### Authentication:
 - Username: `admin`
 - Password: `password`
-
+- may use `users.json` to create a client(up to 5) and communicate. Login update may be late.
+- to create a password via bCrypt method, use `python3 hash_password.py` to generate a hash salted password and store it in `users.json`.
 ---
-
+# Verify all packages are installed correctly
+python -c "
+import cryptography
+import paramiko
+import bcrypt
+print('All dependencies installed successfully!')
+"
+---
 ### 📧 CONTACT
 
 For licensing inquiries, please contact:
