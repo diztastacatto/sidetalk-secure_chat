@@ -36,9 +36,9 @@ Any unauthorized use, copying, or distribution of this software will result in:
 
 #### Installation:
 1. Clone this repository
-2. Install dependencies: `pip install -r requirements.txt`
+2. Install dependencies: `python3 and python-env`
 3. Run the server: `python3 server.py`
-4. Run the client: `python client.py`
+4. Run the client: `python3 client.py`
 
 #### Authentication:
 - Username: `admin`
